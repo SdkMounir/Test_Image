@@ -90,8 +90,7 @@ public class Test_Image {
                
                else Matrice [i][j] = (Matrice [i][j])/2 ; 
                    
-                   while (resultat < Matrice [i][j]){
-                            resultat ++;}
+ 
                    
                    
                
@@ -100,7 +99,7 @@ public class Test_Image {
                    
                    }
        
-       return Matrice && resultat +1 ;
+       return Matrice  ;
     }
     
     public static double Moyenne( double  MM){
@@ -123,12 +122,13 @@ public class Test_Image {
                   somme = somme + Matrice[i][j];   
               }
           }
-          moyenne = somme / (NL*NC);
+          return (somme / 30);
     }
-          
-          return moyenne;
-    }
-
+    
+    
+}
+       
+    
     
 
     
